@@ -1,2 +1,2 @@
-# symfony-command-scheduler
+# Symfony Command Scheduler
 Symfony Command Scheduler

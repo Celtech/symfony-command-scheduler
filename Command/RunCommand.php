@@ -23,12 +23,18 @@ class RunCommand extends Command
      */
     private $scheduler;
 
+    /**
+     * {@inheritdoc}
+     */
     public function __construct(Scheduler $scheduler)
     {
         parent::__construct();
         $this->scheduler = $scheduler;
     }
 
+    /**
+     * {@inheritdoc}
+     */
     protected function configure()
     {
         $this
